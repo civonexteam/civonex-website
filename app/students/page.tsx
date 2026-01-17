@@ -15,6 +15,15 @@ export default function StudentsPage() {
         <li>• Prepare for life, not just exams</li>
       </ul>
 
+      <p className="mt-10">
+  Learn more about{" "}
+  <a href="/civic-sense" className="text-blue-600 underline">
+    civic responsibility
+  </a>{" "}
+  and how it shapes society.
+</p>
+
+
       <p className="mt-8 text-gray-600 italic">
         Because education is not just about marks — it’s about mindset.
       </p>

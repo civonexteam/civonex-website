@@ -14,6 +14,13 @@ export default function InstitutionsPage() {
         <li>• Strengthen digital presence and communication</li>
         <li>• Create meaningful educational impact</li>
       </ul>
+<p className="mt-10">
+  Explore how{" "}
+  <a href="/students" className="text-blue-600 underline">
+    student engagement
+  </a>{" "}
+  creates real impact.
+</p>
 
       <p className="mt-8 text-gray-600 italic">
         Institutions shape society — Civonex helps them do it better.

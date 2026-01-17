@@ -1,4 +1,20 @@
 import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Civonex — Educate. Empower. Engage.",
+  description:
+    "Civonex is a digital-first platform focused on education, civic awareness, and empowering institutions through technology.",
+  keywords: [
+    "civic sense",
+    "education platform",
+    "student awareness",
+    "digital society",
+    "Civonex",
+  ],
+};
+
+
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
