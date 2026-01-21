@@ -110,6 +110,57 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* ================= HOW CIVONEX WORKS ================= */}
+<section className="py-20 px-6 bg-gray-50">
+  <div className="max-w-6xl mx-auto text-center">
+
+    <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
+      How Civonex Works
+    </h2>
+
+    <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+      Civonex works in collaboration with students, educators, and institutions
+      to create meaningful learning and awareness experiences.
+    </p>
+
+    <div className="mt-16 grid gap-10 md:grid-cols-3 text-left">
+
+      {/* Step 1 */}
+      <div className="border border-gray-200 rounded-xl p-8 bg-white">
+        <h3 className="text-lg font-semibold text-gray-900">
+          1. Learn & Understand
+        </h3>
+        <p className="mt-3 text-gray-600 leading-relaxed">
+          Students are introduced to practical concepts, civic awareness,
+          and real-world systems in a simple and relatable way.
+        </p>
+      </div>
+
+      {/* Step 2 */}
+      <div className="border border-gray-200 rounded-xl p-8 bg-white">
+        <h3 className="text-lg font-semibold text-gray-900">
+          2. Engage & Discuss
+        </h3>
+        <p className="mt-3 text-gray-600 leading-relaxed">
+          Through guided discussions and sessions, students reflect,
+          ask questions, and connect learning with everyday life.
+        </p>
+      </div>
+
+      {/* Step 3 */}
+      <div className="border border-gray-200 rounded-xl p-8 bg-white">
+        <h3 className="text-lg font-semibold text-gray-900">
+          3. Apply Responsibly
+        </h3>
+        <p className="mt-3 text-gray-600 leading-relaxed">
+          The focus is on responsible application — better decision-making,
+          civic responsibility, and awareness beyond the classroom.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* ON-CAMPUS PROGRAMS */}
       <section className="py-20 px-6 bg-blue-50/50">
@@ -153,44 +204,100 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <section className="py-24 px-6 bg-gray-900 text-white text-center">
-        <h2 className="text-3xl font-bold">
-          Educate. Empower. Engage.
-        </h2>
-        <p className="text-gray-300 mt-4">
-          Building awareness today for a better tomorrow.
+{/* ================= WORKING WITH INSTITUTIONS ================= */}
+<section className="py-20 px-6 bg-blue-50">
+  <div className="max-w-6xl mx-auto">
+
+    <div className="text-center">
+      <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
+        Working With Schools & Colleges
+      </h2>
+
+      <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+        Civonex believes that meaningful student development happens
+        best when initiatives work in coordination with educational
+        institutions and educators.
+      </p>
+    </div>
+
+    <div className="mt-16 grid gap-10 md:grid-cols-3">
+
+      {/* Point 1 */}
+      <div className="bg-white border border-gray-200 rounded-xl p-8">
+        <h3 className="text-lg font-semibold text-gray-900">
+          Permission-Based Programs
+        </h3>
+        <p className="mt-3 text-gray-600 leading-relaxed">
+          All Civonex activities are conducted only after prior
+          approval from the institution. We respect institutional
+          policies, structure, and academic schedules.
         </p>
+      </div>
 
-        <div className="mt-8">
-          <Link
-            href="/contact"
-            className="px-8 py-3 bg-white text-gray-900 rounded-full font-semibold hover:bg-gray-200 transition"
-          >
-            Connect With Us
-          </Link>
-        </div>
-      </section>
+      {/* Point 2 */}
+      <div className="bg-white border border-gray-200 rounded-xl p-8">
+        <h3 className="text-lg font-semibold text-gray-900">
+          Teacher & Management Coordination
+        </h3>
+        <p className="mt-3 text-gray-600 leading-relaxed">
+          Sessions are planned in coordination with teachers and
+          management to ensure relevance, discipline, and a positive
+          learning environment for students.
+        </p>
+      </div>
 
-      {/* FOOTER */}
-      <footer className="bg-gray-950 text-gray-400 py-12">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-white font-semibold text-lg">Civonex</p>
-          <p className="text-sm mt-1">Educate. Empower. Engage.</p>
+      {/* Point 3 */}
+      <div className="bg-white border border-gray-200 rounded-xl p-8">
+        <h3 className="text-lg font-semibold text-gray-900">
+          No Disruption to Academics
+        </h3>
+        <p className="mt-3 text-gray-600 leading-relaxed">
+          Civonex programs are designed to complement existing
+          academic efforts, not replace or disrupt classroom learning.
+        </p>
+      </div>
 
-          <div className="flex justify-center gap-6 mt-6 text-sm">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <Link href="/students" className="hover:text-white">Students</Link>
-            <Link href="/institutions" className="hover:text-white">Institutions</Link>
-            <Link href="/civic-sense" className="hover:text-white">Civic Sense</Link>
-            <Link href="/contact" className="hover:text-white">Contact</Link>
-          </div>
+    </div>
 
-          <p className="text-xs mt-8">
-            © {new Date().getFullYear()} Civonex. All rights reserved.
-          </p>
-        </div>
-      </footer>
+  </div>
+</section>
+
+
+      {/* ================= PURPOSE-DRIVEN CTA ================= */}
+<section className="py-24 px-6 bg-gray-900">
+  <div className="max-w-5xl mx-auto text-center">
+
+    <h2 className="text-3xl md:text-4xl font-semibold text-white">
+      Let’s Work Together for Student Growth
+    </h2>
+
+    <p className="mt-6 text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto">
+      Civonex welcomes collaboration with schools, colleges, educators,
+      and student communities who believe in responsible education,
+      civic awareness, and practical understanding.
+    </p>
+
+    <p className="mt-4 text-gray-400 text-base max-w-3xl mx-auto">
+      If you are interested in structured awareness sessions, guided
+      discussions, or student-focused initiatives, we would be glad
+      to explore possibilities together — with respect for academic
+      priorities and institutional values.
+    </p>
+
+    <div className="mt-10">
+      <a
+        href="/contact"
+        className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-white text-gray-900 font-medium hover:bg-gray-200 transition"
+      >
+        Connect with Civonex
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+      
 
     </main>
   );

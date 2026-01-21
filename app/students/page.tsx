@@ -137,24 +137,7 @@ export default function StudentsPage() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="bg-gray-950 text-gray-400 py-12">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-white font-semibold text-lg">Civonex</p>
-          <p className="mt-1 text-sm">Educate. Empower. Engage.</p>
-
-          <div className="flex justify-center gap-6 mt-6 text-sm">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <Link href="/institutions" className="hover:text-white">Institutions</Link>
-            <Link href="/civic-sense" className="hover:text-white">Civic Sense</Link>
-            <Link href="/contact" className="hover:text-white">Contact</Link>
-          </div>
-
-          <p className="text-xs mt-8">
-            © {new Date().getFullYear()} Civonex. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      
 
     </main>
   );
